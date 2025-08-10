@@ -1,6 +1,10 @@
 #include <stdio.h>
 int main(){
 
+
+// switch = An alternative to using many if-else statements
+//          More efficient w/ fixed integer values
+  
 char dayOfWeek ="";
 
 printf ("Please enter the first letter day's ('M','T','W','R','F','S','U')  : ");
