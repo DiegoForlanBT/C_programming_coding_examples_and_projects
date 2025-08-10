@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main(){
 
-    printf("Temperature Algorithm\n");
-  int choice = 0;
+  printf("Temperature Algorithm\n");
+  char choice = "";
   float celcius = 0.0f;
   float fahrenheit = 0.0f;
 
   printf("Please make a choice : ");
-  scanf("%d", &choice);
+  scanf("%c", &choice);
 
-  if(choice == 1){
+  if(choice == 'F' || 'f'){
     //celcius to fahrenheit temperature
     printf("Please enter current celcius value : ");
     scanf("%f",&celcius);
@@ -17,7 +17,7 @@ int main(){
     printf("%.2f Celcius convert as %.2f Fahrenheit !", celcius , fahrenheit);
 
   }
-else if(choice == 2){
+else if(choice == 'C'||'c'){
     //fahrenheit to celcius temperature
     printf("Please enter current celcius value : ");
     scanf("%f",&fahrenheit);
