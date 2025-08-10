@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main(){
 
-int dayOfWeek = 0;
+char dayOfWeek ="";
 
-printf ("Please enter a number between 1 and 7 : ");
-scanf("%d",&dayOfWeek);
+printf ("Please enter the first letter day's ('M','T','W','R','F','S','U')  : ");
+scanf("%c",&dayOfWeek);
 printf("\n");
 
 switch (dayOfWeek)
