@@ -5,33 +5,33 @@
 Write your code in this editor and press "Run" button to compile and execute it.
 
 *******************************************************************************/
-#include <string.h>
 #include <stdio.h>
+#include <string.h>
 
-void happyBirthday(char name[] , int age){
-    printf("\nHappy birthday to you");
-    printf("\nHappy birthday to you ");
-    printf("\nHappy birthday dear %s!",name);
-    printf("\nHappy birthday to you!");
-    printf("\nYou are %d years old \n ",age);
-
+void happyBirthday(char name[50] , int age){
+    printf("Happy birtday to you !\n");
+    printf("Happy birtday to you !\n");
+    printf("Happy birtday dear %s ",name);
+    printf("You are %d years old .\n",age);
+    printf("Happy birtday to you !\n");
+    
+    
 }
 
+int main(){
+
+int age ;
+char name[50];
 
 
-int main()
-{
-    char name[] = "";
-    int age = 0;
-    
-    printf("Enter your name : ");
-    fgets(name , sizeof(name) , stdin);
-    name[strlen(name)-1]='\0';
-    
-    printf("\nEnter your age : ");
-    scanf("%d",age);
-    
-    happyBirthday(name ,age);
+printf("Please enter your name : ");
+fgets(name , sizeof(name) , stdin);
+name[strcspn,'\n']='\0';
 
-    return 0;
+printf("Please enter your age : ");
+scanf("%d",&age);
+
+happyBirthday(name , age);
+
+return 0;
 }
