@@ -2,7 +2,7 @@
 #include <stdbool.h>
 
 
-bool ageCheck(int age){
+void bool ageCheck(int age){
 
     if(age>=18){
         return true ;
