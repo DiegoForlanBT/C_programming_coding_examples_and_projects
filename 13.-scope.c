@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int addition(int x , int y){
-    int result = x + y ;
+    int result = x + y ; // local scopes , int x and int y
     return result ;
 }
 
 int subtraction(int x , int y){
-    int result = x - y ;
+    int result = x - y ; // local scopes , int x and int y
     return result ;
 }
 
@@ -14,7 +14,7 @@ int subtraction(int x , int y){
 int main(){
     
     
-    int x , y ;
+    int x , y ; // local scope , int x and int y
     printf("Enter the value of x : ");
     scanf("%d",&x);
     
