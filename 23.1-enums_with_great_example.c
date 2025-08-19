@@ -51,7 +51,10 @@ void battleWins (leader win){
         
         case Franklin_Roosevelt :
         printf("***Franklin D. Roosevelt***\nNo direct battles; political leadership in Allied victory WWII (1939–1945)");
-        
+        break ;
+
+      default:
+      printf("You entered invalid value !! ");
     }
 }
 
