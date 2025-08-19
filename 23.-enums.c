@@ -11,7 +11,7 @@ typedef enum {
 }Day;
 
 void isWeekend(Day d){
-  if(d==Saturday || d==Monday){
+  if(d==Sunday || d==Saturday){
     printf("yes , it's weekend");
   }else{
     printf("no , it's weekday ");
